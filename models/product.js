@@ -1,5 +1,5 @@
 var mongoose = require('mongoose')
-const product = require('../../Users/user/Documents/shopping/codeblack254/models/product')
+//const product = require('../../Users/user/Documents/shopping/codeblack254/models/product')
 const schema = mongoose.Schema
 
 const productSchema = new schema({
