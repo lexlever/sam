@@ -91,7 +91,7 @@ app.get('*', (req, res, next) => {
 })
 
 //using routers in admin
-//const pages = require('./routes/pages')
+const pages = require('./routes/pages')
 const admin = require('./routes/admin')
 const category = require('./routes/admin_categories')
 const adminProducts = require('./routes/admin_products')
@@ -103,7 +103,7 @@ const users = require('./routes/users')
 
 
 
-app.use('/','./routes/pages')
+app.use('/', pages)
 app.use('/admin/pages', admin)
 app.use('/admin/category', category)
 app.use('/admin/products', adminProducts)
