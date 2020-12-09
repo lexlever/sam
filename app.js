@@ -38,7 +38,7 @@ Category.find((err, categories) => {
 })
 
 //connect to database
-mongoose.connect(config.data, {
+mongoose.connect(config.database, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
